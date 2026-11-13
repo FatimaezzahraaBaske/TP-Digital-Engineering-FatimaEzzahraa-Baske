@@ -1,14 +1,21 @@
 # TP-Digital-Engineering-FatimaEzzahraa-Baske
 **Étudiant :** Baske FatimaEzzahraa
-**Rôle dans le binôme :** collaborateur
-- **Synchronisation :** Clonage du dépôt et récupération des modifications de l'étudiant A (utilisation de `git fetch` et `git pull`).
-- **Travail en branche et Pull Request :** Création de la branche `feature/produit`, ajout de la fonction `produit()`, envoi sur GitHub et création d'une Pull Request vers `main`.
-- **Gestion de conflits :** Création de la branche `feature/message`, provocation d'un conflit sur `main.c`, résolution des marqueurs de conflit et finalisation de la fusion (merge).
+**Rôle dans le binôme** — Étudiante A (Propriétaire du dépôt)
+
+**Création et initialisation:** Création du dépôt GitHub calcul-c-equipe et ajout du fichier initial README.md.
+
+**Mise en place du projet:** Ajout du fichier main.c, préparation du premier commit et publication sur la branche main.
+
+**Gestion collaborative:** Invitation de l'étudiant B en tant que collaborateur et fusion de sa Pull Request contenant la fonction produit().
+
+**Travail en branche:** Création de la branche feature/moyenne, ajout de la fonction moyenne(int a, int b) utilisant une division flottante, commit et fusion locale dans main, puis publication sur GitHub.
+
+**Gestion des branches:** Renommage de la branche de démonstration demo-test en demo-renommee, puis suppression de celle-ci.
 ## Liens vers les projets
 - **Exercice 1 (calcul-c) :** https://github.com/FatimaezzahraaBaske/calcul-c.git
-- **Exercice 2 (calcul-c-equipe) :** https://github.com/imane-solah6/calcul-c-equipe.git
+- **Exercice 2 (calcul-c-equipe) :** https://github.com/FatimaezzahraaBaske/calcul-c-equipe.git
 - ## Pull Request
-- **Lien vers la PR fusionnée :** https://github.com/imane-solah6/calcul-c-equipe/pull/1#issue-6276875104
+- **Lien vers la PR fusionnée :** https://github.com/FatimaezzahraaBaske/calcul-c-equipe/pull/1#issue-6362134033 
 - ## Bilan des commandes Git
 ### git status
 
@@ -16,21 +23,23 @@ On branch main
 Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
-### git remote -v
 
-origin  https://github.com/imane-solah6/calcul-c-equipe.git (fetch)
-origin  https://github.com/imane-solah6/calcul-c-equipe.git (push)
+### git remote -v
+git remote -v
+origin  https://github.com/FatimaezzahraaBaske/calcul-c-equipe.git (fetch)
+origin  https://github.com/FatimaezzahraaBaske/calcul-c-equipe.git (push)
+
 
 ### git log --oneline --graph --all
 
-*   242d1b1 (HEAD -> main, origin/main, origin/HEAD) resoudre le conflit de message
+* 7c95b8e (HEAD -> main, origin/main, origin/HEAD, feature/moyenne) Ajout de la fonction moyenne
+*   27bf1e0 Merge pull request #1 from FatimaezzahraaBaske/feature/produit
 |\
-| * d0203fc (feature/message) modifier le message dans feature
-* | f40640a Modifier le message dans main
+| * 3e208f3 (origin/feature/produit) Ajouter la fonction produit
 |/
-* 149c4b5 Ajouter fonction moyenne
-*   2308e82 Merge pull request #1 from imane-solah6/feature/produit
-|\
+* a5683de Ajout du fichier main.c initial
+* 3fe85c8 Initial commit
+
 | * 378d9c5 (origin/feature/produit, feature/produit) ajout de fonction produit
 |/
 * 98dc9fa Ajouter main.c initial
